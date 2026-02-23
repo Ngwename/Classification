@@ -11,7 +11,6 @@
   * [4) KNN Evaluation (4 Features)](#4-knn-evaluation-4-features)
   * [5) ROC Curves + AUC](#5-roc-curves--auc)
 * [Requirements](#requirements)
-* [How to Run](#how-to-run)
 * [Results Interpretation](#results-interpretation)
 * [Outputs](#outputs)
 * [Future Improvements](#future-improvements)
@@ -121,15 +120,6 @@ from sklearn.multiclass import OneVsRestClassifier
 ```
 
 
-## How to Run
-
-```bash
-python IrisDatasetClassification.ipynb
-```
-
-The script will print metrics to the console and display several matplotlib figures.
-
----
 
 ## Results Interpretation
 
