@@ -159,10 +159,3 @@ The script produces:
 
 ---
 
-## Future Improvements
-
-* Add cross-validation for more robust evaluation
-* Tune hyperparameters with GridSearchCV
-* Compare with additional classifiers (SVM, Random Forest)
-* Add feature scaling experiments
-* Export figures automatically to files
