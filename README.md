@@ -105,7 +105,7 @@ pip install scikit-learn numpy matplotlib
 ## How to Run
 
 ```bash
-python iris_demo.py
+python IrisDatasetClassification.ipynb
 ```
 
 The script will print metrics to the console and display several matplotlib figures.
