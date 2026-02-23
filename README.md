@@ -94,13 +94,32 @@ The workflow compares **training vs. test accuracy**, visualizes KNN decision re
 
 ## Requirements
 
-Install dependencies:
+Install all dependencies in one command:
 
 ```bash
 pip install scikit-learn numpy matplotlib
 ```
 
----
+## Imports Used
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+from sklearn.datasets import load_iris
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import (
+    ConfusionMatrixDisplay,
+    classification_report,
+    roc_curve,
+    auc
+)
+from sklearn.preprocessing import label_binarize
+from sklearn.multiclass import OneVsRestClassifier
+```
+
 
 ## How to Run
 
